@@ -1,5 +1,24 @@
 h1{
     color:#003300;
+    font-size: 24pt;
+    font-family: sans-serif
+}
+h3{
+    color: #003300;
+    font-size:16pt;
+}
+p{
+    color: #003300;
+    font-size: 12pt;
+}
+li{
+    color:maroon;
+}
+#current{
+    color:goldenrod;
+}
+p~blockquote{
+    color: red;
 }
 footer{font-size: 10pt;}
 a:link{color: green;}
@@ -8,3 +27,4 @@ a:focus{color:purple;}
 a:visited{color:magenta;}
 a:active{color:aqua;}
 a{text-decoration: none;font-size: 10pt;cursor: pointer;}
+img{float: right;}
