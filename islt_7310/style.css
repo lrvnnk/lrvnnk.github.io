@@ -1,3 +1,10 @@
 h1{
     color:#003300;
 }
+footer{font-size: 10pt;}
+a:link{color: green;}
+a:hover{color:red;}
+a:focus{color:purple;}
+a:visited{color:magenta;}
+a:active{color:aqua;}
+a{text-decoration: none;font-size: 10pt;cursor: pointer;}
