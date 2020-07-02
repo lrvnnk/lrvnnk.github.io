@@ -1,12 +1,25 @@
+/*
+*************************************************
+       Title: Stylesheet
+       Use: To apply styles to each webpage
+       Author: Lukas Veinbergs
+       School/term: University of Missouri/Summer2020
+       Developed: June 2020
+       Tested: Daily in Chrome and Safari
+       Validated: 07/02/2020
+**************************************************
+*/
 h1{
     color:#000000;
     font-size: 24pt;
     font-family: sans-serif;
     border:thin solid #003300;
     background-color: #aaaaaa;
+    text-align: center;
 }
 body{
     background-color: #dddddd;
+    margin: 15px;
 }
 h3{
     color: black;
@@ -20,11 +33,11 @@ p{
     margin-top: 5em;
     margin-left: 1em;
 }
-p::first-letter{
+main p::first-letter{
     font-size: 16pt;
 }
 h3~ul{
-    color:#black;
+    color:black;
     list-style: square;
 }
 #current{
@@ -39,11 +52,12 @@ footer{
     font-size: 10pt;
     border-top:thin solid black;
     clear: right;
+    padding-top: 5px;
 }
-a:link{color: green;}
+a:link{color: darkred;}
 a:hover{color:red;}
 a:focus{color:purple;}
-a:visited{color:magenta;}
+a:visited{color:green}
 a:active{color:aqua;}
 a{text-decoration: none;font-size: 10pt;cursor: pointer;}
 img{
