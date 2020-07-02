@@ -1,30 +1,55 @@
 h1{
-    color:#003300;
+    color:#000000;
     font-size: 24pt;
-    font-family: sans-serif
+    font-family: sans-serif;
+    border:thin solid #003300;
+    background-color: #aaaaaa;
+}
+body{
+    background-color: #dddddd;
 }
 h3{
-    color: #003300;
+    color: black;
     font-size:16pt;
+    margin-top: 3em;
+    margin-left:1em;
 }
 p{
-    color: #003300;
+    color: #000000;
     font-size: 12pt;
+    margin-top: 5em;
+    margin-left: 1em;
 }
-li{
-    color:maroon;
+p::first-letter{
+    font-size: 16pt;
+}
+h3~ul{
+    color:#black;
+    list-style: square;
 }
 #current{
-    color:goldenrod;
+    color: darkred;
 }
 p~blockquote{
-    color: red;
+    color: darkred;
+    font-weight: bold;
+    margin-top: 5em;
 }
-footer{font-size: 10pt;}
+footer{
+    font-size: 10pt;
+    border-top:thin solid black;
+    clear: right;
+}
 a:link{color: green;}
 a:hover{color:red;}
 a:focus{color:purple;}
 a:visited{color:magenta;}
 a:active{color:aqua;}
 a{text-decoration: none;font-size: 10pt;cursor: pointer;}
-img{float: right;}
+img{
+    float: right;
+    padding: 1em;
+    margin-left: 5em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
