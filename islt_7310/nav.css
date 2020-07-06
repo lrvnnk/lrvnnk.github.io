@@ -1,0 +1,9 @@
+#nav_list ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding: .25em;
+    border: solid thin black;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
