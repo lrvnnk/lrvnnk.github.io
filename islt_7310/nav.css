@@ -8,3 +8,43 @@
     text-align: center;
     color: darkgreen;
 }
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul li{
+    width: 150px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul li{
+    margin-bottom:1px;
+}
+nav a{
+    text-decoration: none;
+    display:block;
+    border: 1px solid black;
+    padding: 5px;
+}
+nav a:link{
+    background-color: white;
+    color:darkgreen;
+}
+nav a:hover,nav a:focus{
+    background-color: white;
+}
+nav a:active{
+    background-color: aquamarine;
+}
+nav ul>li ul{
+    position:absolute;
+    margin-top:0;
+    margin-left:100%;
+    margin-top: -29.5%;
+    display:none;
+}
+nav>ul>li:hover>ul{
+    display:block;
+}
