@@ -11,19 +11,22 @@
 */
 h1{
     color:#000000;
-    font-size: 24pt;
+    font-size: 28pt;
     font-family: sans-serif;
-    border:thin solid #003300;
-    background-color: #aaaaaa;
+    border:thin solid black;
+    background-color: #d8ccba;
     text-align: center;
+    height:2em;
+    padding-top: 1em;
 }
 body{
-    background-color: #dddddd;
+    background-color: #f2eee8;
     margin: 15px;
+    font-size: 14pt;
 }
 h3{
     color: black;
-    font-size:16pt;
+    font-size:18pt;
     margin-top: 3em;
     margin-left:1em;
 }
@@ -41,10 +44,10 @@ h3~ul{
     list-style: square;
 }
 #current{
-    color: darkred;
+    color:#6a573c;
 }
 p~blockquote{
-    color: darkred;
+    color:#6a573c;
     font-weight: bold;
     margin-top: 5em;
 }
@@ -54,11 +57,11 @@ footer{
     clear: right;
     padding-top: 5px;
 }
-a:link{color: darkred;}
+a:link{color:blue;}
 a:hover{color:red;}
 a:focus{color:purple;}
-a:visited{color:green}
-a:active{color:aqua;}
+a:visited{color:black;}
+a:active{color:darkred;}
 a{text-decoration: none;font-size: 10pt;cursor: pointer;}
 img{
     float: right;
@@ -66,4 +69,23 @@ img{
     margin-left: 5em;
     margin-right: 3em;
     margin-bottom: 3em;
+    margin-top: -5em;
+}
+nav{
+    color: black;
+}
+h2{
+    text-align: center;
+}
+.second::first-line{
+    text-indent: 2em;
+}
+.second{
+    margin-top: 1em;
+}
+.second::first-letter{
+    font-size: 12pt;
+}
+main{
+    margin-top: 2em;
 }

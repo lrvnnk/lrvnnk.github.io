@@ -1,4 +1,4 @@
-#nav_list ul li{
+nav ul li{
     list-style-type: none;
     margin-bottom: 5px;
     padding: .25em;
@@ -6,31 +6,35 @@
     display: block;
     width: 100px;
     text-align: center;
-    color: darkgreen;
+    color: black;
 }
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: black;
 }
 nav > ul li{
     width: 150px;
     position: relative;
     text-align: center;
     font-weight: bold;
+    color: black;
 }
 nav ul li{
     margin-bottom:1px;
+    color: black;
 }
 nav a{
     text-decoration: none;
     display:block;
     border: 1px solid black;
     padding: 5px;
+    color: black
 }
 nav a:link{
-    background-color: white;
-    color:darkgreen;
+    background-color: #d8ccba;
+    color:black;
 }
 nav a:hover,nav a:focus{
     background-color: white;
@@ -42,9 +46,11 @@ nav ul>li ul{
     position:absolute;
     margin-top:0;
     margin-left:100%;
-    margin-top: -29.5%;
+    margin-top: -20%;
     display:none;
+    color: black;
 }
 nav>ul>li:hover>ul{
     display:block;
+    color: black
 }
