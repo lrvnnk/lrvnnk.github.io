@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <!-- 
+    <!-- 
        *************************************************
-       Title: Background Page
-       Use: To give the user a look into my background
+       Title: Contact Page
+       Use: To offer contact information
        Author: Lukas Veinbergs
        School/term: University of Missouri/Summer2020
-       Developed: June 2020
+       Developed: July 2020
        Tested: Daily in Chrome, Safari, and Firefox
        Validated: 07/16/2020
       **************************************************
        -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Background</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Contact</title>
 </head>
-<body>
+<body id="cont">
    <header>
     <h1>Lukas Veinbergs</h1>
     </header>
-     <nav id="nav_list"> <label id="hamburger">&#9776;</label>
+        <nav id="nav_list"> <label id="hamburger">&#9776;</label>
            <ul>
                <li class="active"><a href="index.html">Home</a></li>
                <li><a href="resume.html">Resume</a></li>
@@ -38,12 +38,22 @@
                <li class="lastmobile"><a href="contact.html">Contact</a></li>
            </ul>
            </nav>
-           <main>
-           <h2 id="bgh2">Background</h2>
-           <p id="bgp">
-               Here is my background information.
-           </p>
-            </main>
-            <footer>&copy; Copyright of <a href="mailto:lrvnnk@mail.missouri.edu">Lukas Veinbergs</a></footer>
+           <main id="contact">
+               <ul id="contactul">
+                <li>Email</li>
+                  <li>Phone #</li>
+                 <li>Linkedin</li>
+                  <li>Social Media</li>
+               </ul>
+           </main>
+           <aside id="contactinfo">
+               <ul id="infoul">
+                   <li>lrvnnk@umsystem.edu</li>
+                   <li>(810)-623-6822</li>
+                   <li>@lukasveinbergs</li>
+                   <li>@lukasveinbergs</li>
+               </ul>
+           </aside>
+           <footer id="contactfoot">&copy; Copyright of <a href="mailto:lrvnnk@mail.missouri.edu">Lukas Veinbergs</a></footer>
 </body>
 </html>

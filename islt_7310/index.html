@@ -8,11 +8,12 @@
        Author: Lukas Veinbergs
        School/term: University of Missouri/Summer2020
        Developed: June 2020
-       Tested: Daily in Chrome and Safari
-       Validated: 07/10/2020
+       Tested: Daily in Chrome, Safari and Firefox
+       Validated: 07/16/2020
       **************************************************
        -->
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Lukas Veinbergs</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
@@ -21,23 +22,23 @@
         <header>
           <h1>Lukas Veinbergs</h1>
           </header>
-          <nav id="nav_list">
+        <nav id="nav_list"> <label id="hamburger">&#9776;</label>
            <ul>
-               <li><a href="index.html">Home</a></li>
+               <li class="active"><a href="index.html">Home</a></li>
                <li><a href="resume.html">Resume</a></li>
                <li><a href="background.html">Background</a></li>
                <li><a href="reflection.html">Reflection</a></li>
                <li><a href="projects.html">Projects</a>
-                   <ul>
+                   <ul id="mobilehide">
                        <li><a href="#">Project 1</a></li>
                        <li><a href="#">Project 2</a></li>
                        <li><a href="#">Project 3</a></li>
                    </ul>
                </li>
-               <li><a href="#contact.html">Contact</a></li>
+               <li class="lastmobile"><a href="contact.html">Contact</a></li>
            </ul>
            </nav>
-           <img src="images/veinbergsheadshot.jpg" alt="Lukas Veinbergs" height="400" width="275">
+           <img src="images/veinbergsheadshot.jpg" alt="Lukas Veinbergs">
         <main>
             <p>Welcome to my digital portfolio, an interactive view into my educational and professional background. My name is Lukas Veinbergs and I am pursuing a M.S. in Learning Technologies and Design at the University of Missouri - Columbia and expect to graduate in August of 2021. In this digital portfolio I hope to give an accurate depiction of myself as a student as well as a person and leader. This portfolio will give you an insight into my academic career, work and volunteer opportunities I participated in during my time as an undergraduate and graduate student at the University of Missouri.
             </p>

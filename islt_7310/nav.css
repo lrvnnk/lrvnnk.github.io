@@ -1,36 +1,52 @@
-nav ul li{
+/*
+*************************************************
+       Title: Nav Stylesheet
+       Use: To apply styles to Nav 
+       Author: Lukas Veinbergs
+       School/term: University of Missouri/Summer2020
+       Developed: July 2020
+       Tested: Daily in Chrome, Safari, and Firefox
+       Validated: 07/16/2020
+**************************************************
+*/
+/*nav ul li{
     list-style-type: none;
     margin-bottom: 5px;
     padding: .25em;
     border: solid thin black;
-    display: block;
+    display: inline-block;
     width: 100px;
     text-align: center;
     color: black;
+    position: relative;
+}*/
+nav{
+    top:0px;
+    text-align: center;
+    display: inline-block;
+    border: solid thin black;
+    position:relative;
+    width:100vw;
 }
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: black;
 }
 nav > ul li{
-    width: 150px;
     position: relative;
     text-align: center;
     font-weight: bold;
     color: black;
-}
-nav ul li{
-    margin-bottom:1px;
-    color: black;
+    float:left;
 }
 nav a{
     text-decoration: none;
-    display:block;
+    display:inline-block;
     border: 1px solid black;
     padding: 5px;
-    color: black
+    margin:2px;
+    width:13.56em;
 }
 nav a:link{
     background-color: #d8ccba;
@@ -44,13 +60,81 @@ nav a:active{
 }
 nav ul>li ul{
     position:absolute;
-    margin-top:0;
-    margin-left:100%;
-    margin-top: -20%;
+    top:100%;
     display:none;
     color: black;
+}
+nav ul ul li{
+    float:none;
 }
 nav>ul>li:hover>ul{
     display:block;
     color: black
+}
+.active a:link{
+    background-color: lightblue;
+}
+#hamburger{
+    display:none;
+}
+@media only screen and (max-width:640px){
+    header{
+        position:relative;
+        height:40px;
+        display:block;
+        width:100%;
+        clear:left;
+    }
+    h1{
+        padding-left:1em;
+    }
+    #hamburger{
+        display:block;
+        padding-left:10px;
+        width:26px;
+        clear:left;
+        font-size:2em;
+    }
+    nav ul, nav:active ul{
+        display:none;
+        position:absolute;
+        padding:20px 20px 20px 0px;
+        top:20px;
+    }
+    nav:hover ul{
+        display:block;
+    }
+    nav:hover #mobilehide{
+        display:none;
+    }
+    nav li{
+        text-align:center;
+        padding:0;
+        margin:0;
+    }
+    nav>ul li{
+        text-align:left;
+        font-weight:bold;
+        color:lightblue;
+        float:left;
+        border:solid thin black;
+    }
+    nav a{
+        text-decoration:none;
+        display:inline-block;
+        border-top:none;
+        border-bottom:none;
+        padding:15px 0px 15px 35px;
+        width:240px;
+        margin-bottom:2px;
+    }
+    nav .lastmobile{border-bottom:thin solid black;}
+    nav ul li ul{
+        display:none;
+    }
+    nav{
+        border:none;
+        text-align: center;
+        float:left;
+    }
 }

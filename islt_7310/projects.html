@@ -8,11 +8,12 @@
        Author: Lukas Veinbergs
        School/term: University of Missouri/Summer2020
        Developed: July 2020
-       Tested: Daily in Chrome and Safari
-       Validated: 07/10/2020
+       Tested: Daily in Chrome, Safari and Firefox
+       Validated: 07/16/2020
       **************************************************
        -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Projects</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
@@ -26,29 +27,31 @@
     </style>
 </head>
 <body>
+   <header>
     <h1>Project Page</h1>
-    <nav id="nav_list">
+    </header>
+    <nav id="nav_list"> <label id="hamburger">&#9776;</label>
            <ul>
-               <li><a href="index.html">Home</a></li>
+               <li class="active"><a href="index.html">Home</a></li>
                <li><a href="resume.html">Resume</a></li>
                <li><a href="background.html">Background</a></li>
                <li><a href="reflection.html">Reflection</a></li>
                <li><a href="projects.html">Projects</a>
-                   <ul>
+                   <ul id="mobilehide">
                        <li><a href="#">Project 1</a></li>
                        <li><a href="#">Project 2</a></li>
                        <li><a href="#">Project 3</a></li>
                    </ul>
                </li>
-               <li><a href="#contact.html">Contact</a></li>
+               <li class="lastmobile"><a href="contact.html">Contact</a></li>
            </ul>
            </nav>
-           <h2>Projects</h2>
-           <main>
-           <P>Project 1</P>
-           <p>Project 2</p>
-           <p>Project 3</p>
-    </main>
+           <h2 id="projh2">Projects</h2>
+               <main>
+               <P>Project 1</P>
+               <p>Project 2</p>
+               <p>Project 3</p>
+                </main>
             <footer>
     &copy; Copyright of <a href="mailto:lrvnnk@mail.missouri.edu">Lukas Veinbergs</a>
     </footer>
