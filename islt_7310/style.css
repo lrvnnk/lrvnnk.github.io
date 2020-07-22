@@ -23,6 +23,7 @@ body{
     background-color: #f2eee8;
     margin: 15px;
     width: 100%;
+    font-size:120%;
 }
 h3{
     color: black;
@@ -52,7 +53,7 @@ p~blockquote{
     margin-top: 5em;
 }
 footer{
-    font-size: .625em;
+    font-size: 22pt;
     border-top:thin solid black;
     clear: right;
     padding-top: .3125em;
@@ -111,6 +112,21 @@ main{
 #bgp{
     text-align:center;
 }
+#resumevid{
+            text-align:center;
+            margin-left:19em;
+            padding-top:2em;
+        }
+#phoneico{
+    float:none;
+    margin:0;
+    padding:0;
+}
+#mailico{
+    float:none;
+    margin:0;
+    padding:0;
+}
 @media only screen and (max-width:640px){
     body{
         max-width:100%;
@@ -154,6 +170,13 @@ main{
         position:relative;
         margin-right:.5em;
         margin-bottom: 3em;
-        
+    }
+    #resumevid{
+        margin-left:auto;
+        width:auto;
+        height:auto;
+        margin-left: 2em;
+        margin-top:2em;
+        margin-top:2em;
     }
 }
