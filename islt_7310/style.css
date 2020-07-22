@@ -53,7 +53,6 @@ p~blockquote{
     margin-top: 5em;
 }
 footer{
-    font-size: 22pt;
     border-top:thin solid black;
     clear: right;
     padding-top: .3125em;
@@ -114,8 +113,8 @@ main{
 }
 #resumevid{
             text-align:center;
-            margin-left:19em;
             padding-top:2em;
+            position:relative;
         }
 #phoneico{
     float:none;
@@ -179,4 +178,18 @@ main{
         margin-top:2em;
         margin-top:2em;
     }
+    #phoneico{
+    float:none;
+    margin:0;
+    padding:0;
+    height:1em;
+    width:1em;
+}
+#mailico{
+    float:none;
+    margin:0;
+    padding:0;
+    height:1em;
+    width:1em;
+}
 }
