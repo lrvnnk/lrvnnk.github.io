@@ -115,6 +115,8 @@ main{
             text-align:center;
             padding-top:2em;
             position:relative;
+            display:block;
+            margin:0 auto;
         }
 #phoneico{
     float:none;
@@ -125,6 +127,11 @@ main{
     float:none;
     margin:0;
     padding:0;
+}
+footer{
+    background-image: url(images/geobanner.jpeg);
+    width:100%;
+    height:500%;
 }
 @media only screen and (max-width:640px){
     body{
@@ -177,6 +184,8 @@ main{
         margin-left: 2em;
         margin-top:2em;
         margin-top:2em;
+        display:block;
+        margin:0 auto;
     }
     #phoneico{
     float:none;
