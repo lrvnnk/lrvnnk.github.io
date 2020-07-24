@@ -9,6 +9,19 @@
        Validated: 07/16/2020
 **************************************************
 */
+/* recursive-regular - latin */
+@font-face {
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/recursive-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/recursive-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/recursive-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/recursive-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/recursive-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/recursive-v20-latin-regular.svg#Recursive') format('svg'); /* Legacy iOS */
+}
 h1{
     color:#000000;
     font-size: 28pt;
@@ -51,6 +64,7 @@ p~blockquote{
     color:#6a573c;
     font-weight: bold;
     margin-top: 5em;
+    font-family: 'Recursive';
 }
 footer{
     border-top:thin solid black;
