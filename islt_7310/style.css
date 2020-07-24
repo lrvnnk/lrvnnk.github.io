@@ -76,7 +76,7 @@ a:hover{color:red;}
 a:focus{color:purple;}
 a:visited{color:black;}
 a:active{color:darkred;}
-a{text-decoration: none;font-size: 10pt;cursor: pointer;}
+a{text-decoration: none;font-size: 1em;cursor: pointer;}
 img{
     float: right;
     padding: 1em;
@@ -215,4 +215,45 @@ footer{
     height:1em;
     width:1em;
 }
+}
+@media print {
+    body{
+        background-color:white;
+        font-family: serif;
+        margin:auto;
+        background-color: white;
+        color:black;
+    }
+    #nav_list{
+        display:none;
+    }
+    h1{
+        display: block;
+    }
+    img{
+        display: block;
+    }
+    p{
+        display: block;
+    }
+    ul{
+        display: block;
+        color:black;
+    }
+    blockquote{
+        display:block;
+        font-family: 'Recursive';
+        color:black;
+        background-color:white;
+    }
+    footer{
+        display:block;
+        page-break-after: always;
+    }
+    #phoneico{
+        display:none;
+    }
+    #mailico{
+        display:none;
+    }
 }
