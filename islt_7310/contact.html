@@ -39,22 +39,17 @@
                <li class="lastmobile"><a href="contact.html">Contact</a></li>
            </ul>
            </nav>
-           <main id="contact">
-               <ul id="contactul">
-                <li>Email</li>
-                  <li>Phone #</li>
-                 <li>Linkedin</li>
-                  <li>Social Media</li>
-               </ul>
-           </main>
-           <aside id="contactinfo">
-               <ul id="infoul">
-                   <li>lrvnnk@umsystem.edu</li>
-                   <li>(810)-623-6822</li>
-                   <li>@lukasveinbergs</li>
-                   <li>@lukasveinbergs</li>
-               </ul>
-           </aside>
+          <form action="mailto:lrvnnk@umsystem.edu?subject=Portfolio%20Website%20Contact">
+             <label for="firstname">First Name:</label>
+              <input type="text" name="firstname" id="firstname" placeholder="First Name" required autofocus><br>
+              <label for="lastname">Last name:</label>
+              <input type="text" name="lastname" id="lastname" placeholder="Last Name" required><br>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Email Here" required><br>
+              <label for="message">Message:</label>
+              <textarea id="message" placeholder="If you have a message, please put it here." required></textarea><br>
+              <input type="submit" name="submit" id="submit" value="Submit" required>
+          </form>
            <footer>&copy; Copyright of <a href="mailto:lrvnnk@mail.missouri.edu">Lukas Veinbergs</a><img id="phoneico" src="images/icons8-phone-24.png" alt="phone icon"/>+1(888)888-8888 <img id="mailico" src="images/icons8-email-28.png" alt="mail icon"/>Lrvnnk@umsystem.edu</footer>
 </body>
 </html>
