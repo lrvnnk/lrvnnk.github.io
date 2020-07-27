@@ -309,6 +309,9 @@ input:focus{
     table{
         width:60%;
     }
+    form{
+        margin-top:5em;
+    }
 }
 /*Code for home proint page*/
 @media print {
