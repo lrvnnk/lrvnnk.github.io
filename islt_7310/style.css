@@ -173,6 +173,7 @@ h3{
     width:50%;
     padding:10px;
     float:inherit;
+    max-width:50%;
 }
 #mizzoubbpara{
     display: block;
@@ -273,6 +274,23 @@ textarea{
 input:focus{
     color:blue;
 }
+#rfmain{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top:1em;
+}
+#resumedoc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top:1em;
+}
+#redditlink{
+    text-decoration: underline;
+}
 /*Code for Media platforms*/
 @media only screen and (max-width:640px){
     body{
@@ -348,8 +366,31 @@ input:focus{
     form{
         margin-top:5em;
     }
+    #rfmain{
+        width:75%;
+    }
+    #mizzoubbpara{
+        width:70%;
+    }
+    #rbdpara{
+        width:70%;
+    }
+    #redditpara{
+        width:70%;
+    }
+    #mizzoubb{
+        height:100%;
+        margin-bottom: 1em;
+    }
+    #welcomepara{
+        clear:right;
+    }
+    #headshotpic{
+    display: block;
+    width:auto;
+    }
 }
-/*Code for home proint page*/
+/*Code for home print page*/
 @media print {
     body{
         background-color:white;
