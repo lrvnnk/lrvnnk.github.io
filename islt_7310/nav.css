@@ -9,17 +9,6 @@
        Validated: 07/16/2020
 **************************************************
 */
-/*nav ul li{
-    list-style-type: none;
-    margin-bottom: 5px;
-    padding: .25em;
-    border: solid thin black;
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-    color: black;
-    position: relative;
-}*/
 nav{
     top:0px;
     text-align: center;
@@ -33,9 +22,10 @@ nav ul{
     margin: 0;
     padding: 0;
     width:100vw;
+    position:relative;
 }
 nav > ul li{
-    position: relative;
+    position:relative;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -47,7 +37,7 @@ nav a{
     border: 1px solid black;
     padding: .15em;
     margin:.15em;
-    width:13.56em;
+    width:12em;
 }
 nav a:link{
     background-color: #d8ccba;
@@ -63,14 +53,18 @@ nav ul>li ul{
     position:absolute;
     top:100%;
     display:none;
+    right:0;
     color: black;
 }
-nav ul ul li{
+nav ul li ul li{
+    position:relative;
+    display:block;
     float:none;
 }
-nav>ul>li:hover>ul{
+nav>ul>li:hover>ul {
     display:block;
-    color: black
+    color: black;
+    right:0;
 }
 .active a:link{
     background-color: lightblue;
@@ -78,6 +72,7 @@ nav>ul>li:hover>ul{
 #hamburger{
     display:none;
 }
+/*Phone Screen Use*/
 @media only screen and (max-width:640px){
     header{
         position:relative;

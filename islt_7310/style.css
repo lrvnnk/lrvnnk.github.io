@@ -164,15 +164,51 @@ footer{
 }
 h3{
     text-align: center;
+    margin-top:1em;
 }
 #mizzoubb{
     display:block;
     margin-left: auto;
     margin-right: auto;
     width:50%;
+    padding:10px;
+    float:inherit;
 }
 #mizzoubbpara{
-    clear:right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top:1em;
+}
+#rbdpara{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top:1em;
+}
+#redditpara{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top:1em;
+}
+#project1{
+    border:thin black solid;
+    padding:.1em;
+    margin:1em;
+}
+#project2{
+    border:thin black solid;
+    padding:.1em;
+    margin:1em;
+}
+#project3{
+    border:thin black solid;
+    padding:.1em;
+    margin:1em;
 }
 #education{
     background-color: #d8ccba;
