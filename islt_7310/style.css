@@ -215,6 +215,7 @@ h3{
     background-color: #d8ccba;
     text-align:center;
     border-bottom:thin black solid;
+    width:60%;
 }
 table{
     border:2px black solid;
@@ -228,8 +229,12 @@ table{
 td{
     padding:.25em
 }
-table :nth-of-type(even){
+tr:nth-of-type(even){
     background-color: #d8ccba;
+    border: 2px black solid
+}
+#degree{
+    width:100%;
 }
 figcaption{
     display:block;
@@ -290,6 +295,11 @@ input:focus{
 }
 #redditlink{
     text-decoration: underline;
+}
+#contactpara{
+    text-align:center;
+    margin-top: 2em;
+    max-width:80ch;
 }
 /*Code for Media platforms*/
 @media only screen and (max-width:640px){
@@ -388,6 +398,12 @@ input:focus{
     #headshotpic{
     display: block;
     width:auto;
+    }
+    table{
+        max-width:100%;
+        overflow-x: auto;
+        display: block;
+        width:100%;
     }
 }
 /*Code for home print page*/
