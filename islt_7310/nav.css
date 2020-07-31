@@ -21,11 +21,10 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width:100vw;
+    width:200vw;
     position:relative;
 }
 nav > ul li{
-    position:relative;
     text-align: center;
     font-weight: bold;
     color: black;
